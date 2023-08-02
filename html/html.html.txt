@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Le titre de la page -->
+    <title>cours html</title>
+    <!-- logo de l'onglet en écrivent "link" -->
+    <link rel="shortcut icon" href="logo.png" />
+  </head>
+  <body>
+    <header>
+      <!-- h1 pour le titre qui peux aller jusque au h6 -->
+      <h1>lettre et tout et tout</h1>
+      <!-- p pour paragraphe -->
+      <!-- br pour mettre un espace entre les lignes -->
+      <!-- lorem x nombres pour mettre un faux texte -->
+      <!-- span ne revien pas à la ligne -->
+      <p>
+        Histoire Discord est né en 2015 de Jason Citron avec pour but de
+        rassembler tous les logiciels de VoIP existants (Skype, TeamSpeak,
+        Mumble, etc.) dans un seul logiciel. Le logiciel est d'abord utilisé
+        par les joueurs, mais d'autres communautés se mettent rapidement à
+        l'utiliser, comme les développeurs 10.
+      </p>
+    <!-- section et une partie  -->
+  </header>
+    <section>
+      <!-- div est  pour dir une plus petite partie -->
+      </div>
+        <h2>image de l'équipe</h2>
+        <!-- pour afficher une image "img" -->
+        <img
+          src="photo-de-l'équipe-discord.png"
+          alt="image de l'équipe Discord"/>
+      <h3>listes</h3>
+      <!-- avant de faire une liste on doit mettre "ul"pour l'annoncer qui veux dire unordered -->
+      <!-- l'énumeration est "li" -->
+      <!-- aide pour multiplier la ligne "shift + alt + flèche du bas" -->
+      <ul>
+        <li>les chiffres Discord</li>
+        <li>les chiffres Discord</li>
+        <li>les chiffres Discord</li>
+        <li>les chiffres Discord</li>
+      </ul>
+      <!-- et si on veux une liste ranger pas des numéro se serais "ol" -->
+      <ol>
+        <li>les non chiffres Discord</li>
+        <li>les non chiffres Discord</li>
+        <li>les non chiffres Discord</li>
+        <li>les non chiffres Discord</li>
+      </ol>
+      <h4>les tableaux</h4>
+      <!-- les tableaux se font en utilisant "table" et les bordures et le chiffre pour l'épaisseur et width pour la largeur -->
+      <table border="1" width="50%">
+        <!-- la légende c'est "caption" -->
+        <caption>
+          les chiffres en europe
+        </caption>
+        <!-- l'en-tête se présente avec "thead et après "tr" et à l'interieure on va énumerer les "th" -->
+        <thead>
+          <tr>
+            <th>chiffres</th>
+            <br>
+            <th>personnes connecter</th>
+            <th>revenu</th>
+          </tr>
+        </thead>
+        <!-- corp du tableau avec "tbody" avec des "tr" et ensuite des "td"-->
+        <tbody>
+          <tr>
+            <td>Discord</td>
+            <td>1billion</td>
+            <td>76 million</td>
+          </tr>
+        </tbody>
+
+      </table>
+      <h5>les liens</h5>
+      <!-- pour faire ouvrir un lien il suffis de faire "a" et mettre target_blank pour mettre une nouvelle page -->
+      <a href="https://www.youtube.com" target="_blank">info sur discord</a>
+    </section>
+  </body>
+</html>
